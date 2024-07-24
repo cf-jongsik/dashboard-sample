@@ -1,0 +1,11 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "dashboard-sample"
+compatibility_date = "2024-07-22"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[vars]
+ACCT_ID=""  # cloudflare account id
+ZONE_ID="" # cloudflare zone id
+DATE_START="2024-07-23" # sameple start date
+DATE_END="2024-07-24" # sample end date
